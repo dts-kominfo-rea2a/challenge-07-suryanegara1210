@@ -20,9 +20,9 @@ const promiseOutput = async (args) => {
       return ixxCount.length + vgcCount.length
     }
     else {
-      const vgcCount = result[0].filter((a) => a.hasil == 'tidak marah')
+      const ixxCount = result[0].filter((a) => a.hasil == 'tidak marah')
       const vgcCount = result[1].filter((a) => a.hasil == 'tidak marah')
-      return vgcCount.length + vgcCount.length
+      return ixxCount .length + vgcCount.length
     }
   }
   catch(err) {
